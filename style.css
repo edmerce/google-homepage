@@ -17,17 +17,30 @@ button:focus {
   outline: none;
 }
 
-.btn {
+#cta a {
   border: 0px;
   background-color: #f6f6f8;
   margin: 20px 6px;
   padding: 10px 16px;
   border-radius: 4px;
   font-size: 14px;
+  text-decoration: none;
+  color: #313131;
+}
+
+#cta a:hover {
+  box-shadow: 0px 1px 2px 2px #f0f0f0c7;
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+header {
+}
+
+#hero-cover {
+  height: auto;
 }
 
 li a {
@@ -59,7 +72,7 @@ nav {
   border-radius: 50%;
 }
 
-#hero-cover {
+#branding {
   display: flex;
   justify-content: center;
 }
@@ -76,7 +89,7 @@ nav {
 }
 
 #search-bar {
-  margin: auto;
+  margin: 15px auto;
   border-radius: 100px;
   border: rgb(223, 221, 221) solid 1px;
   width: 33vw;
@@ -93,14 +106,18 @@ nav {
 }
 
 #lang {
-  margin-top: -15px;
+  margin-top: -5px;
   font-size: 14px;
   letter-spacing: -0.25px;
 }
 
+#lang a {
+  text-decoration: none;
+}
+
 #icons-search {
   position: relative;
-  display: inline-block;
+
   color: #a1a1a1;
 }
 
@@ -139,13 +156,13 @@ footer {
 }
 
 #block-left a {
-  margin-right: 18px;
+  margin-right: 20px;
   text-decoration: none;
   color: #666;
 }
 
 #block-right a {
-  margin-left: 18px;
+  margin-left: 20px;
   text-decoration: none;
   color: #666;
 }
